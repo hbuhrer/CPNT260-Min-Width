@@ -142,6 +142,17 @@ footer {
 
 /* Desktop styles - min-width media query */
 @media screen and (min-width: 768px) {
+
+  /* Added requested background colour change on desktop */
+  body {
+    background-color: hsl(202, 100%, 95%);
+  }
+
+  /* Kept card white */
+  .card {
+    background-color: hsl(0, 0%, 100%);
+  }
+  
   /* Adjusting layout for header and footer on larger screens */
   header, footer {
     display: flex;
@@ -149,6 +160,7 @@ footer {
     align-items: center;
   }
 
+  /* Styles for logo image */
   .logo-image{
     display: flex;
     max-height: 80px;
